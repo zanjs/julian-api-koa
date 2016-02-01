@@ -7,7 +7,7 @@ var fs = require('fs');
 var all = {
   env: process.env.NODE_ENV,
   root: path.normalize(__dirname + '/../../..'),
-  port: process.env.PORT || 9000,
+  port: process.env.PORT || 8083,
   mongo: {
     options: {
       db: {

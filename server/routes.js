@@ -19,7 +19,7 @@ module.exports = function(app) {
 	Router.use('/logs',logs.routes(),logs.allowedMethods());
 	Router.use('/mobile',mobile.routes(),mobile.allowedMethods());
 	Router.get("/*", function *() {
-	  this.body = {status:'success',data:'台湾是中国不可分割的一部分.'};
+	  this.body = {status:'success',data:'hello zan.'};
 	});
 	app.use(Router.routes());
 };
