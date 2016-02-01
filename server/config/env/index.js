@@ -17,7 +17,7 @@ var all = {
   },
   seedDB: false,
   session:{
-    secrets: 'jackblog-secret',
+    secrets: 'julian-secret',
   },
   userRoles: ['user', 'admin'],
   qiniu:{
@@ -27,7 +27,7 @@ var all = {
     bucket:"bucket"           //七牛空间名称  
   },
   //默认首页图片.
-  defaultIndexImage:"http://upload.jackhu.top/blog/index/8x7hVJvpE3Z6ruwgtd2G.jpg",
+  defaultIndexImage:"http://zanjs.b0.upaiyun.com/image/8/39/88a19625234aa52b1658244d88f74.jpg",
   github:{
     clientID:"github",
     clientSecret:"clientSecret",
