@@ -5,7 +5,7 @@ const bunyan = require('bunyan');
 const config = require('../../config/env');
 
 const logger = bunyan.createLogger({
-	name: 'jackblog',
+	name: 'julian',
 	serializers: {
 	 req: bunyan.stdSerializers.req,
 	 res: bunyan.stdSerializers.res,
