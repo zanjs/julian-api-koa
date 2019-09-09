@@ -1,5 +1,7 @@
 # api koa版
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/julian-api-koa.svg)](https://greenkeeper.io/)
+
 
 
 ## 环境准备
